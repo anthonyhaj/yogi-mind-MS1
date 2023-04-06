@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@600&family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@800&family=Roboto:ital,wght@1,300&display=swap');
 
 /* main structure */
 
@@ -8,14 +8,54 @@
 }
 
 body {
-    font-family: League Spartan, sans-serif;
+    font-family: Roboto, sans-serif;
     color: #333333;
 }
 
 h1, h2 {
-    font-family: Roboto, sans-serif;
+    font-family: League Spartan, sans-serif;
     text-transform: uppercase;
     letter-spacing: 5px;
 }
 
+#logo {
+    font-size: 48px;
+    font-weight: 1000;
+    color: #8f5be5;
+    margin: 20px;
+    padding: 20px;
+    float: left;
+  }
 /* heading and nav */
+#nav-menu {
+    font-size: x-large;
+    letter-spacing: 3px;
+}
+
+#nav-menu,
+#logo {
+    line-height: 75px;
+    margin-left: 30px;
+    
+}
+#nav-menu a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.5s;
+  }
+
+  #nav-menu li {
+    list-style-type: none;
+    float: right;
+    margin: 30px;
+    padding: 10px;
+}
+
+#nav-menu a:hover {
+    border-bottom: 1px solid #8f5be5;
+    color: #8f5be5;
+  }
+
+.current {
+    border-bottom: 1px solid #333333;
+}
