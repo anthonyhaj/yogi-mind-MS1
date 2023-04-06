@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@600&family=Roboto:ital,wght@1,300&display=swap');
+
+/* main structure */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: League Spartan, sans-serif;
+    color: #333333;
+}
+
+h1, h2 {
+    font-family: Roboto, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+/* heading and nav */
