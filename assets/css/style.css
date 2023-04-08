@@ -22,11 +22,10 @@ h2 {
 #logo {
     font-size: 50px;
     font-weight: 300;
-    color: #8f5be5;
+    color: #b086ac;
     margin: 20px;
     padding: 20px;
     float: left;
-    display: inline-block;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
 }
 
@@ -59,8 +58,8 @@ h2 {
 }
 
 #nav-menu a:hover {
-    border-bottom: 1px solid #8f5be5;
-    color: #8f5be5;
+    border-bottom: 1px solid #b086ac;
+    color: #b086ac;
 }
 
 .current {
@@ -77,6 +76,20 @@ h2 {
     background-position: center bottom;
     position: absolute;
     z-index: -1;
+    animation: zoom-in 3s ease-in-out;
+}
+/* animation hero image */
+
+@keyframes zoom-in {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
 
 #hero-section {
@@ -87,6 +100,12 @@ h2 {
     margin-top: -50px;
 }
 
-.hero-content {
+.hero-box {
     position: absolute;
+    bottom: 200px;
+    right: 30px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
 }
+
