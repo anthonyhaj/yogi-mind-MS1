@@ -109,6 +109,12 @@ h2 {
     border-radius: 10px;
 }
 
+.hero-box h2 {
+    color: #b086ac;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    padding: 3px;
+}
+
 /* explore section */
 
 #yoga-explore {
@@ -130,10 +136,12 @@ h2 {
 .yoga-box h2 {
     margin-bottom: 20px;
     color: #b086ac;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
 .yoga-box h4 {
     margin-bottom: 20px;
+    color: #333333;
 }
 
 .yoga-box a {
@@ -154,7 +162,7 @@ h2 {
 /* footer */
 
 footer {
-    height: 120px;
+    height: 200px;
     background-color: #b086ac;
 }
 
@@ -172,9 +180,25 @@ footer {
 }
 
 .social-media i {
-    font-size: 50px;
+    font-size: 40px;
     padding-top: 5px;
-    margin: 2%;
+    margin: 1%;
+    color: #333;
 }
 
+#contact-us {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+
+#contact-us h3 {
+    font-size: 35px;
+    font-family: League Spartan, sans-serif ;
+}
+
+#contact-us p {
+    font-size: 20px;
+    margin-top: 5px;
+}
 
