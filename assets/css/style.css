@@ -38,9 +38,9 @@ h2 {
 
 #nav-menu,
 #logo {
-    line-height: 75px;
-    margin-left: 30px;
-
+    line-height: 20px;
+    padding-left: 30px;
+    display: inline;
 }
 
 #nav-menu a {
@@ -80,10 +80,11 @@ h2 {
 }
 
 #hero-section {
-    height: 600px;
+    height: 675px;
     width: 100%;
     position: relative;
     overflow: hidden;
+    margin-top: -50px;
 }
 
 .hero-content {
