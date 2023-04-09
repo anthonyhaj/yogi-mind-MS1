@@ -251,13 +251,14 @@ footer {
 }
 
 .pose ol {
+    max-width: 600px;
+    padding-top: 10px;
     text-align: left;
     line-height: 1.5;
     font-weight: bold;
 }
 
 hr {
-    border-top: 1px solid #b086ac;
+    border-top: 2px dotted #b086ac;
     margin-bottom: 60px;
-
 }
