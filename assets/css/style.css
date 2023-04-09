@@ -201,3 +201,43 @@ footer {
     font-size: 20px;
     margin-top: 5px;
 }
+
+/* yoga poses page */
+
+#yoga-poses {
+    width: 80%;
+    margin: 0 auto 20px;
+    overflow: hidden;
+    text-align: center;
+}
+
+#yoga-poses h1 {
+    font-size: 30px;
+    padding: 20px 0 30px;
+}
+
+.pose {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+
+.pose img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.pose h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.pose ol {
+    text-align: left;
+    line-height: 1.5;
+    font-weight: bold;
+}
