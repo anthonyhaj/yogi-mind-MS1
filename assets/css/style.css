@@ -30,6 +30,7 @@ h2 {
 }
 
 /* heading and nav */
+
 #nav-menu {
     font-size: large;
     letter-spacing: 3px;
@@ -262,3 +263,37 @@ hr {
     border-top: 2px dotted #b086ac;
     margin-bottom: 60px;
 }
+
+/* sign up form */
+
+.form-sec {
+    background-image: url(../images/subscribe-image.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+    margin-top: 85px;
+}
+
+.sign-up {
+    margin: 200px 10% 0 ;
+    padding: 20px;
+    display: inline-block;
+    background-color: rgba(176,134,172,0.5)
+}
+
+.sign-up h2 {
+    font-size: 30px;
+    color: #333333;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+.form-text {
+    display: block;
+    align-items: center;
+    width: 50%;
+    height: 20px;
+    margin: 5px auto;
+    text-align: center;
+}
+
