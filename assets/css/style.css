@@ -79,15 +79,18 @@ h2 {
     z-index: -1;
     animation: zoom-in 3s ease-in-out;
 }
+
 /* animation hero image */
 
 @keyframes zoom-in {
     0% {
         transform: scale(1);
     }
+
     50% {
         transform: scale(1.1);
     }
+
     100% {
         transform: scale(1);
     }
@@ -124,6 +127,7 @@ h2 {
     background-color: #fcfcfc;
     padding: 50px 0;
 }
+
 .yoga-box {
     width: 50%;
     margin: 50% 50% 0;
@@ -195,7 +199,7 @@ footer {
 
 #contact-us h3 {
     font-size: 35px;
-    font-family: League Spartan, sans-serif ;
+    font-family: League Spartan, sans-serif;
 }
 
 #contact-us p {
@@ -275,14 +279,15 @@ hr {
 }
 
 .sign-up {
-    margin: 200px 10% 0 ;
+    margin: 200px 10% 0;
+    max-width: 600px;
     padding: 20px;
     display: inline-block;
-    background-color: rgba(176,134,172,0.5)
+    background-color: rgba(176, 134, 172, 0.5)
 }
 
 .sign-up h2 {
-    font-size: 30px;
+    font-size: 25px;
     color: #333333;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
     margin-bottom: 20px;
@@ -290,10 +295,39 @@ hr {
 
 .form-text {
     display: block;
-    align-items: center;
-    width: 50%;
-    height: 20px;
-    margin: 5px auto;
-    text-align: center;
+    width: 100%;
+    height: 25px;
+    margin: 0 0 15px;
+    color: #fcfcfc;
+    background: transparent;
+    border: 1px solid #333;
+    border-radius: 5px;
+    font-weight: bold;
 }
 
+label {
+    font-size: 18px;
+    color: #333;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    padding-bottom: 20px;
+}
+
+.sign-up-button {
+    background-color: #fcfcfc;
+    padding: 10px 30px;
+    text-align: center;
+    font-size: large;
+    border-radius: 8px;
+    font-family: League Spartan, sans-serif;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    transition: background-color 0.4s ease;
+}
+
+.sign-up-button:hover {
+    background-color: rgba(176, 134, 172, 1);
+    color: #333333;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
