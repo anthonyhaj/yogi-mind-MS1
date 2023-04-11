@@ -22,7 +22,7 @@ h2 {
 #logo {
     font-size: 50px;
     font-weight: 300;
-    color:#c695a8;
+    color: #c695a8;
     margin: 20px;
     padding: 20px;
     float: left;
@@ -72,7 +72,7 @@ h2 {
 #hero-image {
     height: 675px;
     width: 100%;
-    background-image: url(../images/hero-image-2.jpg);
+    background-image: url(../images/hero-image.jpg);
     background-size: cover;
     background-position: center bottom;
     position: absolute;
@@ -106,7 +106,7 @@ h2 {
 
 .hero-box {
     position: absolute;
-    bottom: 200px;
+    margin-top: 300px;
     right: 30px;
     background-color: rgba(255, 255, 255, 0.8);
     padding: 20px;
@@ -165,6 +165,8 @@ h2 {
     font-family: League Spartan, sans-serif;
     cursor: pointer;
 }
+
+
 /* about us section */
 
 #about-us {
@@ -193,8 +195,7 @@ h2 {
     display: block;
     text-decoration: none;
     margin: 0 auto;
-    margin-bottom: 10px;
-    padding: 10px 20px;
+    padding: 10px 24px;
     background-color: #c695a8;
     color: #fcfcfc;
     font-size: 20px;
@@ -364,8 +365,32 @@ label {
 }
 
 .sign-up-button:hover {
-    background-color: rgba(rgb(198,149,168) 1);
+    background-color: rgba(rgb(198, 149, 168) 1);
     color: #333333;
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
     cursor: pointer;
+}
+
+/* media queries */
+
+@media screen and (max-width: 950px) {
+    #nav-menu {
+        display: inline-table;
+        padding: 0 20px 20px 0;
+    }
+
+    #hero-image {
+        position: relative;
+        padding-left: 180px;
+    }
+
+    .hero-box {
+        position: absolute;
+        top: -250px;
+        left: auto 20px;
+    }
+
+    #about-us h4 {
+        margin-right: 60px;
+    }
 }
