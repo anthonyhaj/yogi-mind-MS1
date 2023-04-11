@@ -169,7 +169,7 @@ h2 {
 
 #about-us {
     background-color: #fcfcfc;
-    padding: 50px;
+    padding: 30px 0 50px;
 }
 
 #about-us h2 {
@@ -185,6 +185,21 @@ h2 {
     margin: 20px 20px 20px 25%;
     line-height: 1.5;
     max-width: 800px;
+}
+
+#about-us a {
+    height: 15px;
+    width: 85px;
+    display: block;
+    text-decoration: none;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background-color: #c695a8;
+    color: #fcfcfc;
+    font-size: 20px;
+    font-family: League Spartan, sans-serif;
+    cursor: pointer;
 }
 
 /* footer media links and contact us */
@@ -302,11 +317,11 @@ hr {
 }
 
 .sign-up {
-    margin: 200px;
+    margin: 250px 150px;
     max-width: 600px;
     padding: 20px;
     display: inline-block;
-    background-color: rgba(rgb(198,149,168) 0.5)
+    background-color: rgba(198, 149, 168, 0.8)
 }
 
 .sign-up h2 {
