@@ -22,7 +22,7 @@ h2 {
 #logo {
     font-size: 50px;
     font-weight: 300;
-    color: #b086ac;
+    color:#c695a8;
     margin: 20px;
     padding: 20px;
     float: left;
@@ -59,8 +59,8 @@ h2 {
 }
 
 #nav-menu a:hover {
-    border-bottom: 1px solid #b086ac;
-    color: #b086ac;
+    border-bottom: 1px solid #c695a8;
+    color: #c695a8;
 }
 
 .current {
@@ -114,7 +114,7 @@ h2 {
 }
 
 .hero-box h2 {
-    color: #b086ac;
+    color: #c695a8;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
     padding: 3px;
 }
@@ -139,12 +139,14 @@ h2 {
 }
 
 .yoga-box h2 {
+    font-size: 30px;
     margin-bottom: 20px;
-    color: #b086ac;
+    color: #c695a8;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
 .yoga-box h4 {
+    font-size: 18px;
     margin-bottom: 20px;
     color: #333333;
 }
@@ -157,18 +159,39 @@ h2 {
     margin: 0 auto;
     margin-bottom: 10px;
     padding: 10px 20px;
-    background-color: #b086ac;
+    background-color: #c695a8;
     color: #fcfcfc;
     font-size: 20px;
     font-family: League Spartan, sans-serif;
     cursor: pointer;
+}
+/* about us section */
+
+#about-us {
+    background-color: #fcfcfc;
+    padding: 50px;
+}
+
+#about-us h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #c695a8;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+#about-us h4 {
+    font-size: 18px;
+    margin: 20px 20px 20px 25%;
+    line-height: 1.5;
+    max-width: 800px;
 }
 
 /* footer media links and contact us */
 
 footer {
     height: 200px;
-    background-color: #b086ac;
+    background-color: #c695a8;
 }
 
 .social-media {
@@ -219,7 +242,7 @@ footer {
 #yoga-poses h1 {
     font-size: 30px;
     padding: 20px 0 30px;
-    color: #b086ac;
+    color: #c695a8;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
@@ -247,7 +270,7 @@ footer {
 .pose h2 {
     font-size: 24px;
     margin-bottom: 20px;
-    color: #b086ac;
+    color: #c695a8;
 }
 
 .pose h3 {
@@ -264,7 +287,7 @@ footer {
 }
 
 hr {
-    border-top: 2px dotted #b086ac;
+    border-top: 2px dotted #c695a8;
     margin-bottom: 60px;
 }
 
@@ -283,7 +306,7 @@ hr {
     max-width: 600px;
     padding: 20px;
     display: inline-block;
-    background-color: rgba(176, 134, 172, 0.5)
+    background-color: rgba(rgb(198,149,168) 0.5)
 }
 
 .sign-up h2 {
@@ -326,7 +349,7 @@ label {
 }
 
 .sign-up-button:hover {
-    background-color: rgba(176, 134, 172, 1);
+    background-color: rgba(rgb(198,149,168) 1);
     color: #333333;
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
     cursor: pointer;
