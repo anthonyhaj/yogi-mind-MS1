@@ -347,7 +347,7 @@ main {
 .form-tb {
     width: 90%;
     margin: 10px;
-    padding: 10px 13px;
+    padding: 12px;
     font-size: 16px;
     font-weight: bolder;
 }
@@ -420,6 +420,11 @@ main {
     }
 
     main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-col {
 
     }
 }
