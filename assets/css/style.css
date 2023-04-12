@@ -321,6 +321,7 @@ main {
 .news-h {
     font-size: 18px;
     padding: 10px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .form-label {
@@ -346,6 +347,7 @@ main {
 }
 .ci-h2 {
     line-height: 30px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 .ci-r {
     line-height: 25px;
