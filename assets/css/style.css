@@ -315,6 +315,7 @@ main {
     flex-direction: column;
     border: 1px solid #ddd;
     border-radius: 5px;
+    padding: 1rem;
 }
 
 .news-h {
@@ -328,10 +329,6 @@ main {
     font-size: 18px;
 }
 .form-tb {
-    margin: 10px;
-}
-
-.form-te {
     margin: 10px;
 }
 
