@@ -96,13 +96,10 @@ a {
 }
 
 #hero-section {
-    display: flex;
-    align-items: flex-end;
     height: 685px;
     width: 100%;
     position: relative;
     overflow: hidden;
-    margin-top: -35px;
 }
 
 .hero-box {
@@ -420,6 +417,9 @@ main {
         font-size: 50px;
         padding-bottom: 0;
     }
+    .hero-box {
+        margin: 80px;
+    }
 
     main {
         display: flex;
@@ -452,17 +452,24 @@ main {
     #nav-menu a {
         font-size: 14px;
     }
-
+    #nav-menu li{
+        margin: 15px;
+    }
     #nav-menu {
         display: flex;
         flex-direction: row-reverse;
         align-items: center;
     }
+
+    .form-box {
+        padding: 10px;
+    }
 }
 
 @media screen and (max-width: 452px) {
-    body {
-        
+    #hero-section {
+        margin: 0;
+        background-position: bottom;
     }
     #nav-menu li {
         margin: 15px;
@@ -475,6 +482,7 @@ main {
     #logo {
         font-size: 35px;
     }
+    
 }
 
 @media screen and (max-width: 359px) {
