@@ -337,6 +337,17 @@ main {
     margin: 10px;
     padding: 10px 13px;
     font-size: 16px;
+    font-weight: bolder;
+}
+
+.sign-up-btn {
+    display: inline-block;
+    line-height: 1.5;
+    text-decoration: none;
+    padding: 8px 12px 8px 12px;
+    margin: 12px 12px 12px 42%;
+    font-size: 18px;
+    font-family: League Spartan, sans-serif;
 }
 
 .ci-col {
@@ -349,8 +360,13 @@ main {
     line-height: 30px;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
+
 .ci-r {
     line-height: 25px;
+    padding-top: 10px;
+}
+.ci-r>p {
+    font-weight: bold;
 }
 .map-h {
     padding-left: 20px;
