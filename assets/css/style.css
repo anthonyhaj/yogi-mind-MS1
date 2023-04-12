@@ -413,6 +413,10 @@ main {
         justify-content: center;
     }
 
+    #nav-menu a {
+        font-size: 18px;
+    }
+
     #logo {
         font-size: 50px;
         padding-bottom: 0;
@@ -454,7 +458,7 @@ main {
 
 @media screen and (max-width: 664px) {
     #nav-menu a {
-        font-size: 14px;
+        font-size: 13px;
     }
 
     #nav-menu li {
@@ -473,6 +477,10 @@ main {
 
     .form-box {
         padding: 10px;
+    }
+
+    .form-col {
+        margin-right: 30px;
     }
 
     .flex-col {
@@ -504,8 +512,12 @@ main {
         font-size: 12px;
     }
 
-
-
+    .form-col {
+        margin-right: 25px;
+    }
+    .ci-col {
+        margin-right: 25px;
+    }
 }
 
 @media screen and (max-width: 359px) {
@@ -527,9 +539,12 @@ main {
         align-items: flex-start;
         margin-top: 15px;
     }
+    .form-col {
+        margin-right: 25px;
+    }
 
     .ci-col {
-        margin-left: 18px;
+        padding: 15px;
     }
 
     .map {
