@@ -6,7 +6,7 @@
 
 [Live webpage](https://anthonyhaj.github.io/yogi-mind-MS1/)
 
-## Table of Content
+## Table of Contents
 
 1. [Introduction](#introduction)
 2. [User Experience](#user-experience)
@@ -34,5 +34,5 @@
 10. [Credits](#credits)
 11. [Acknowledgements](#acknowledgements)
 
-### User Goals
+### User Stories
 - 
