@@ -38,12 +38,12 @@ h2, h3, a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #FABECC;
+    background-color: rgb(247,200,201, 0.9);
 }
 
 #nav-menu a {
     color: #F5F5F5;
-    background-color: #FABECC;
+    background-color: rgb(247,200,201, 0.9);
     font-size: 22px;
     text-decoration: none;
     transition: color 0.5s;
@@ -97,7 +97,7 @@ h2, h3, a{
 #hero-section {
     display: flex;
     align-items: flex-end;
-    height: 675px;
+    height: 685px;
     width: 100%;
     position: relative;
     overflow: hidden;
@@ -141,7 +141,7 @@ h2, h3, a{
 .yoga-box h2 {
     font-size: 30px;
     margin-bottom: 20px;
-    color: #c695a8;
+    color: #F0AEC3;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
@@ -159,7 +159,7 @@ h2, h3, a{
     margin: 0 auto;
     margin-bottom: 10px;
     padding: 10px 20px;
-    background-color: #c695a8;
+    background-color: #F0AEC3;
     color: #fcfcfc;
     font-size: 20px;
     font-family: League Spartan, sans-serif;
@@ -177,7 +177,7 @@ h2, h3, a{
 #about-us h2 {
     font-size: 30px;
     margin-bottom: 20px;
-    color: #c695a8;
+    color: #F0AEC3;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
     text-align: center;
 }
@@ -196,7 +196,7 @@ h2, h3, a{
     text-decoration: none;
     margin: 0 auto;
     padding: 10px 24px;
-    background-color: #c695a8;
+    background-color: #F0AEC3;
     color: #fcfcfc;
     font-size: 20px;
     font-family: League Spartan, sans-serif;
@@ -207,7 +207,7 @@ h2, h3, a{
 
 footer {
     height: 200px;
-    background-color: #FABECC;
+    background-color: #F0AEC3;
 }
 
 .social-media {
@@ -258,7 +258,7 @@ footer {
 #yoga-poses h1 {
     font-size: 30px;
     padding: 20px 0 30px;
-    color: #c695a8;
+    color: #F0AEC3;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
@@ -286,7 +286,7 @@ footer {
 .pose h2 {
     font-size: 24px;
     margin-bottom: 20px;
-    color: #c695a8;
+    color: #F0AEC3;
 }
 
 .pose h3 {
@@ -303,7 +303,7 @@ footer {
 }
 
 hr {
-    border-top: 2px dotted #c695a8;
+    border-top: 2px dotted #F0AEC3;
     margin-bottom: 60px;
 }
 
@@ -353,7 +353,7 @@ main {
     margin: 12px 12px 12px 42%;
     font-size: 18px;
     font-family: League Spartan, sans-serif;
-    background-color: #FFC2D0;
+    background-color: #F0AEC3;
     border-radius: 5px;
 }
 
