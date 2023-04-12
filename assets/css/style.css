@@ -71,7 +71,7 @@ a {
 #hero-image {
     height: 650px;
     width: 100%;
-    background-image: url(../images/hero-image.jpg);
+    background-image: url(../images/hero-image-1.jpg);
     background-size: cover;
     background-position: center 80%;
     position: absolute;
@@ -417,9 +417,11 @@ main {
         font-size: 50px;
         padding-bottom: 0;
     }
+
     .hero-box {
         margin: 80px;
     }
+
 
     main {
         display: flex;
@@ -432,6 +434,7 @@ main {
         align-items: center;
         margin-top: 15px;
     }
+
     .ci-col {
         margin-bottom: 25px;
     }
@@ -441,24 +444,31 @@ main {
         align-items: center;
         border: none;
     }
+
     .form-box {
         border: 1px solid #D3D3D3;
         border-radius: 5px;
         padding: 15px;
-    } 
+    }
 }
 
 @media screen and (max-width: 664px) {
     #nav-menu a {
         font-size: 14px;
     }
-    #nav-menu li{
+
+    #nav-menu li {
         margin: 15px;
     }
+
     #nav-menu {
         display: flex;
         flex-direction: row-reverse;
         align-items: center;
+    }
+
+    .hero-box {
+        margin: 20px;
     }
 
     .form-box {
@@ -467,10 +477,19 @@ main {
 }
 
 @media screen and (max-width: 452px) {
+
+    
+
+    #logo {
+        font-size: 35px;
+    }
+
     #hero-section {
         margin: 0;
         background-position: bottom;
     }
+
+
     #nav-menu li {
         margin: 15px;
     }
@@ -479,17 +498,20 @@ main {
         font-size: 10px;
     }
 
-    #logo {
-        font-size: 35px;
-    }
-    
+
+
 }
 
 @media screen and (max-width: 359px) {
     #nav-menu li {
         margin: 15px;
     }
+
     #logo {
         font-size: 35px;
+    }
+
+    .hero-box {
+        margin: 20px;
     }
 }
