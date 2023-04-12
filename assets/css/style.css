@@ -307,7 +307,12 @@ hr {
     margin-bottom: 60px;
 }
 
-/* sign up form */
+/* sign up and contact info*/
 
+main {
+    display: inline-flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
 
 /* media queries */
