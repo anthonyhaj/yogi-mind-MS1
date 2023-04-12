@@ -432,6 +432,20 @@ main {
         align-items: center;
         margin-top: 25px;
     }
+    .ci-col {
+        margin-bottom: 25px;
+    }
+
+    .form-col {
+        display: flex;
+        align-items: center;
+        border: none;
+    }
+    .form-box {
+        border: 1px solid #D3D3D3;
+        border-radius: 5px;
+        padding: 10px;
+    } 
 }
 
 @media screen and (max-width: 664px) {
@@ -447,16 +461,24 @@ main {
 }
 
 @media screen and (max-width: 452px) {
-    .nav-bar{
-        
-    }
     #nav-menu li {
         margin: 20px;
     }
+
     #nav-menu a {
         font-size: 12px;
     }
+
     #logo {
         font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 359px) {
+    #nav-menu li {
+        margin: 15px;
+    }
+    #logo {
+        font-size: 35px;
     }
 }
