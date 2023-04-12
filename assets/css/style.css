@@ -313,366 +313,41 @@ main {
 .form-col {
     display: flex;
     flex-direction: column;
-    margin: 30px;
     border: 1px solid #ddd;
-}
-
-.flex-col {
-    border: 1px solid #ddd;
+    border-radius: 5px;
 }
 
 
 
+.ci-col {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px 10px 10px 20px;
+    margin-bottom: 10px;
+}
+.ci-h2 {
+    line-height: 30px;
+}
 .ci-r {
     line-height: 25px;
 }
-
+.map-h {
+    padding-left: 20px;
+}
 .map-box {
     display: flex;
     flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 5px;
 }
-
 .map-h {
     line-height: 32px;
 }
 
+.map {
+    padding: 0 10px 10px;
+}
 
 /* media queries */
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@800&family=Roboto:ital,wght@1,300&display=swap');
-
-/* main structure */
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    font-family: Roboto, sans-serif;
-    color: #333333;
-}
-
-h1,
-h2 {
-    font-family: League Spartan, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-}
-
-#logo {
-    font-size: 45px;
-    font-weight: 300;
-    color: #c695a8;
-    margin: 20px;
-    padding: 20px;
-    float: left;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
-}
-
-/* heading and nav */
-
-.nav-bar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-#nav-menu a {
-    color: #333;
-    font-size: 24px;
-    text-decoration: none;
-    transition: color 0.5s;
-}
-
-#nav-menu li {
-    list-style-type: none;
-    float: right;
-    margin: 30px;
-    padding: 10px;
-    background-color: #fff;
-}
-
-#nav-menu a:hover {
-    border-bottom: 1px solid #c695a8;
-    color: #c695a8;
-}
-
-.current {
-    border-bottom: 1px solid #333333;
-}
-
-/* hero cover */
-
-#hero-image {
-    height: 650px;
-    width: 100%;
-    background-image: url(../images/hero-image.jpg);
-    background-size: cover;
-    background-position: center 80%;
-    position: absolute;
-    z-index: -1;
-    animation: zoom-in 3s ease-in-out;
-}
-
-/* animation hero image */
-
-@keyframes zoom-in {
-    0% {
-        transform: scale(1);
-    }
-
-    50% {
-        transform: scale(1.1);
-    }
-
-    100% {
-        transform: scale(1);
-    }
-}
-
-#hero-section {
-    display: flex;
-    align-items: flex-end;
-    height: 675px;
-    width: 100%;
-    position: relative;
-    overflow: hidden;
-    margin-top: -35px;
-}
-
-.hero-box {
-    position: absolute;
-    margin-block: 250px;
-    right: 30px;
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 20px;
-    border-radius: 10px;
-}
-
-.hero-box h2 {
-    color: #c695a8;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
-    padding: 3px;
-}
-
-/* explore section */
-
-#yoga-explore {
-    width: 100%;
-    height: auto;
-    background-color: #fcfcfc;
-    padding: 50px 0;
-}
-
-.yoga-box {
-    width: 50%;
-    margin: 50% 50% 0;
-    color: #333;
-    text-align: center;
-    display: inline;
-    vertical-align: top;
-    background-color: #fcfcfc;
-}
-
-.yoga-box h2 {
-    font-size: 30px;
-    margin-bottom: 20px;
-    color: #c695a8;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
-}
-
-.yoga-box h4 {
-    font-size: 18px;
-    margin-bottom: 20px;
-    color: #333333;
-}
-
-.yoga-box a {
-    height: 15px;
-    width: 60px;
-    display: block;
-    text-decoration: none;
-    margin: 0 auto;
-    margin-bottom: 10px;
-    padding: 10px 20px;
-    background-color: #c695a8;
-    color: #fcfcfc;
-    font-size: 20px;
-    font-family: League Spartan, sans-serif;
-    cursor: pointer;
-}
 
 
-/* about us section */
-
-#about-us {
-    background-color: #fcfcfc;
-    padding: 30px 0 50px;
-}
-
-#about-us h2 {
-    font-size: 30px;
-    margin-bottom: 20px;
-    color: #c695a8;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
-    text-align: center;
-}
-
-#about-us h4 {
-    font-size: 18px;
-    margin: 20px 20px 20px 25%;
-    line-height: 1.5;
-    max-width: 800px;
-}
-
-#about-us a {
-    height: 15px;
-    width: 85px;
-    display: block;
-    text-decoration: none;
-    margin: 0 auto;
-    padding: 10px 24px;
-    background-color: #c695a8;
-    color: #fcfcfc;
-    font-size: 20px;
-    font-family: League Spartan, sans-serif;
-    cursor: pointer;
-}
-
-/* footer media links and contact us */
-
-footer {
-    height: 200px;
-    background-color: #c695a8;
-}
-
-.social-media {
-    text-align: center;
-}
-
-.social-media>li {
-    display: inline;
-}
-
-.social-media>li>a:hover {
-    opacity: 0.8;
-    transform: scale(1.1);
-}
-
-.social-media i {
-    font-size: 40px;
-    padding-top: 5px;
-    margin: 1%;
-    color: #333;
-}
-
-#contact-us {
-    text-align: center;
-    margin-top: 30px;
-    padding-top: 20px;
-}
-
-#contact-us h3 {
-    font-size: 35px;
-    font-family: League Spartan, sans-serif;
-}
-
-#contact-us p {
-    font-size: 20px;
-    margin-top: 5px;
-}
-
-/* yoga poses page */
-
-#yoga-poses {
-    width: 80%;
-    margin: 0 auto 20px;
-    overflow: hidden;
-    text-align: center;
-}
-
-#yoga-poses h1 {
-    font-size: 30px;
-    padding: 20px 0 30px;
-    color: #c695a8;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
-}
-
-
-.pose {
-    display: inline-block;
-    align-items: center;
-    margin-bottom: 30px;
-    padding-bottom: 20px;
-}
-
-.pose img {
-    width: 100%;
-    max-width: 600px;
-    height: auto;
-    margin-bottom: 20px;
-    border-radius: 5%;
-}
-
-.pose img:hover {
-    transform: scale(1.03);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-}
-
-.pose h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
-    color: #c695a8;
-}
-
-.pose h3 {
-    text-align: start;
-    line-height: 1.5;
-}
-
-.pose ol {
-    max-width: 600px;
-    padding-top: 10px;
-    text-align: left;
-    line-height: 1.5;
-    font-weight: bold;
-}
-
-hr {
-    border-top: 2px dotted #c695a8;
-    margin-bottom: 60px;
-}
-
-/* sign up and contact info*/
-
-main {
-    display: flex;
-    justify-content: space-around;
-}
-
-.form-col {
-    display: flex;
-    flex-direction: column;
-    margin: 30px;
-    border: 1px solid #ddd;
-}
-
-.flex-col {
-    border: 1px solid #ddd;
-}
-
-.ci-col {
-    padding: 20px 0 25px;
-}
-
-.map-box {
-    display: flex;
-    flex-direction: column;
-}
-
-.map-h {
-    line-height: 32px;
-}
-
-
-/* media queries */
