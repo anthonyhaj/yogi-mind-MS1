@@ -13,7 +13,7 @@ body {
 }
 
 h1,
-h2 {
+h2, h3, a{
     font-family: League Spartan, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -22,8 +22,7 @@ h2 {
 #logo {
     font-size: 45px;
     font-weight: 300;
-    color: #c695a8;
-    margin: 20px;
+    color: #F5F5F5;
     padding: 20px;
     float: left;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
@@ -35,11 +34,13 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #FABECC;
 }
 
 #nav-menu a {
-    color: #333;
-    font-size: 24px;
+    color: #F5F5F5;
+    background-color: #FABECC;
+    font-size: 22px;
     text-decoration: none;
     transition: color 0.5s;
 }
@@ -48,17 +49,16 @@ h2 {
     list-style-type: none;
     float: right;
     margin: 30px;
-    padding: 10px;
     background-color: #fff;
 }
 
 #nav-menu a:hover {
-    border-bottom: 1px solid #c695a8;
-    color: #c695a8;
+    border-bottom: 1px solid #F5F5F5;
+    color: #F5F5F5;
 }
 
 .current {
-    border-bottom: 1px solid #333333;
+    border-bottom: 1px solid #F5F5F5;
 }
 
 /* hero cover */
@@ -149,7 +149,7 @@ h2 {
 
 .yoga-box a {
     height: 15px;
-    width: 60px;
+    width: 100px;
     display: block;
     text-decoration: none;
     margin: 0 auto;
@@ -187,7 +187,7 @@ h2 {
 
 #about-us a {
     height: 15px;
-    width: 85px;
+    width: 130px;
     display: block;
     text-decoration: none;
     margin: 0 auto;
@@ -203,7 +203,7 @@ h2 {
 
 footer {
     height: 200px;
-    background-color: #c695a8;
+    background-color: #FABECC;
 }
 
 .social-media {
@@ -308,12 +308,13 @@ hr {
 main {
     display: flex;
     justify-content: space-around;
+    margin-top: 25px;
 }
 
 .form-col {
     display: flex;
     flex-direction: column;
-    border: 1px solid #ddd;
+    border: 1px solid #D3D3D3;
     border-radius: 5px;
     padding: 30px;
 }
@@ -348,10 +349,12 @@ main {
     margin: 12px 12px 12px 42%;
     font-size: 18px;
     font-family: League Spartan, sans-serif;
+    background-color: #FFC2D0;
+    border-radius: 5px;
 }
 
 .ci-col {
-    border: 1px solid #ddd;
+    border: 1px solid #D3D3D3;
     border-radius: 5px;
     padding: 20px 10px 10px 20px;
     margin-bottom: 10px;
@@ -370,11 +373,12 @@ main {
 }
 .map-h {
     padding-left: 20px;
+    margin: 5px;
 }
 .map-box {
     display: flex;
     flex-direction: column;
-    border: 1px solid #ddd;
+    border: 1px solid #D3D3D3;
     border-radius: 5px;
 }
 .map-h {
