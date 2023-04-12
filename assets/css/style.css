@@ -315,12 +315,12 @@ main {
     flex-direction: column;
     border: 1px solid #ddd;
     border-radius: 5px;
-    padding: 1rem;
+    padding: 30px;
 }
 
 .news-h {
     font-size: 18px;
-    padding: 20px 10px 10px 20px;
+    padding: 10px;
 }
 
 .form-label {
@@ -328,8 +328,14 @@ main {
     display: block;
     font-size: 18px;
 }
+.f-border {
+    box-sizing: border-box;
+}
 .form-tb {
+    width: 90%;
     margin: 10px;
+    padding: 10px 13px;
+    font-size: 16px;
 }
 
 .ci-col {
