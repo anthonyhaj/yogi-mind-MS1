@@ -114,8 +114,8 @@ h2, h3, a{
 }
 
 .hero-box h2 {
-    color: #c695a8;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    color: #F0AEC3;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
     padding: 3px;
 }
 
@@ -207,7 +207,7 @@ h2, h3, a{
 
 footer {
     height: 200px;
-    background-color: #F0AEC3;
+    background-color: rgb(247,200,201, 0.9);
 }
 
 .social-media {
