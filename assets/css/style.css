@@ -17,7 +17,9 @@ body {
 }
 
 h1,
-h2, h3, a{
+h2,
+h3,
+a {
     font-family: League Spartan, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -38,12 +40,12 @@ h2, h3, a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(247,200,201, 0.9);
+    background-color: rgb(240, 174, 195, 0.9);
 }
 
 #nav-menu a {
     color: #F5F5F5;
-    background-color: rgb(247,200,201, 0.9);
+    background-color: rgb(240, 174, 195, 0.9);
     font-size: 22px;
     text-decoration: none;
     transition: color 0.5s;
@@ -53,7 +55,6 @@ h2, h3, a{
     list-style-type: none;
     float: right;
     margin: 30px;
-    background-color: #fff;
 }
 
 #nav-menu a:hover {
@@ -211,7 +212,7 @@ h2, h3, a{
 
 footer {
     height: 200px;
-    background-color: rgb(247,200,201, 0.9);
+    background-color: rgb(240, 174, 195, 0.9);
 }
 
 .social-media {
@@ -324,7 +325,7 @@ main {
     flex-direction: column;
     border: 1px solid #D3D3D3;
     border-radius: 5px;
-    padding: 30px;
+    padding: 15px;
 }
 
 .news-h {
@@ -338,9 +339,11 @@ main {
     display: block;
     font-size: 18px;
 }
+
 .f-border {
     box-sizing: border-box;
 }
+
 .form-tb {
     width: 90%;
     margin: 10px;
@@ -364,9 +367,10 @@ main {
 .ci-col {
     border: 1px solid #D3D3D3;
     border-radius: 5px;
-    padding: 20px 10px 10px 20px;
+    padding: 20px 10px 20px 20px;
     margin-bottom: 10px;
 }
+
 .ci-h2 {
     line-height: 30px;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -376,19 +380,23 @@ main {
     line-height: 25px;
     padding-top: 10px;
 }
+
 .ci-r>p {
     font-weight: bold;
 }
+
 .map-h {
     padding-left: 20px;
     margin: 5px;
 }
+
 .map-box {
     display: flex;
     flex-direction: column;
     border: 1px solid #D3D3D3;
     border-radius: 5px;
 }
+
 .map-h {
     line-height: 32px;
 }
@@ -399,4 +407,20 @@ main {
 
 /* media queries */
 
+@media screen and (max-width: 963px) {
 
+    #nav-menu {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    #nav-menu a {
+        font-size: 16px;
+    }
+
+    #logo {
+        font-size: 40px;
+    }
+
+}
