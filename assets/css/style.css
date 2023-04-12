@@ -335,9 +335,10 @@ main {
 }
 
 .form-label {
-    padding-left: 10px;
+    padding: 10px;
     display: block;
     font-size: 18px;
+    font-weight: bold;
 }
 
 .f-border {
@@ -350,6 +351,7 @@ main {
     padding: 12px;
     font-size: 16px;
     font-weight: bolder;
+    border: 1px solid #333333;
 }
 
 .sign-up-btn {
@@ -423,8 +425,7 @@ main {
         display: flex;
         flex-direction: column;
     }
-
-    .form-col {
-
+    .map {
+        
     }
 }
