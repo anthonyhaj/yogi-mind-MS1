@@ -2,19 +2,15 @@
 
 (Developer: Anthony Haj Ibrahim)
 
-![Mockup image](*)
+![Mockup image]()
 
-[Live webpage](*)
+[Live webpage](https://anthonyhaj.github.io/yogi-mind-MS1/)
 
 ## Table of Content
 
-1. [Project Goals](#project-goals)
-    1. [User Goals](#user-goals)
-    2. [Site Owner Goals](#site-owner-goals)
+1. [Introduction](#introduction)
 2. [User Experience](#user-experience)
-    1. [Target Audience](#target-audience)
-    2. [User Requrements and Expectations](#user-requrements-and-expectations)
-    3. [User Stories](#user-stories)
+    1. [User Stories](#user-stories)
 3. [Design](#design)
     1. [Design Choices](#design-choices)
     2. [Colour](#colours)
