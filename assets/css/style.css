@@ -182,11 +182,15 @@ h2, h3, a{
     text-align: center;
 }
 
-#about-us h4 {
-    font-size: 18px;
-    margin: 20px 20px 20px 25%;
+.about-box {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.about-box h4 {
     line-height: 1.5;
-    max-width: 800px;
+    font-size: 18px;
 }
 
 #about-us a {
