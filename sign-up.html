@@ -13,15 +13,17 @@
 
 <body>
     <header>
-        <a href="index.html">
-            <h1 id="logo">Yogi Mind</h1>
-        </a>
         <nav>
-            <ul id="nav-menu">
-                <li><a href="sign-up.html">Sign Up</a></li>
-                <li><a href="yoga-poses.html">Yoga Poses</a></li>
-                <li><a href="index.html" class="current">Home</a></li>
-            </ul>
+            <div class="nav-bar">
+                <a href="index.html">
+                    <h1 id="logo">Yogi Mind</h1>
+                </a>
+                <ul id="nav-menu">
+                    <li><a href="sign-up.html">Sign Up</a></li>
+                    <li><a href="yoga-poses.html">Yoga Poses</a></li>
+                    <li><a href="index.html" class="current">Home</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
     <main>
@@ -31,15 +33,15 @@
                     <h2>Sign Up For Our Newsletter!</h2>
                     <div class="tb-1">
                         <label for="fname">First Name:</label>
-                        <input type="text" id="fname" class="form-text" name="first-name" required>
+                        <input type="text" id="fname" class="form-tb" name="first-name" required>
                     </div>
                     <div class="tb-1">
                         <label for="lname">Last Name:</label>
-                        <input type="text" id="lname" class="form-text" name="last-name" required>
+                        <input type="text" id="lname" class="form-tb" name="last-name" required>
                     </div>
                     <div class="tb-1">
                         <label for="email">Email:</label>
-                        <input type="email" id="email" class="form-text" name="email-address" required>
+                        <input type="email" id="email" class="form-tb" name="email-address" required>
                     </div>
                     <button class="sign-up-button" type="submit">Sign Up!</button>
                 </form>
