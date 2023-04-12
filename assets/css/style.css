@@ -317,7 +317,14 @@ main {
     border-radius: 5px;
 }
 
+.news-h {
+    font-size: 18px;
+    padding: 20px 10px 10px 20px;
+}
 
+.tb1 {
+    margin: 10px;
+}
 
 .ci-col {
     border: 1px solid #ddd;
