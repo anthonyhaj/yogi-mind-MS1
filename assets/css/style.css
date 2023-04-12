@@ -474,6 +474,11 @@ main {
     .form-box {
         padding: 10px;
     }
+
+    .flex-col {
+        display: flex;
+        align-items: center;
+    }
 }
 
 @media screen and (max-width: 452px) {
@@ -491,7 +496,6 @@ main {
         background-position: bottom;
     }
 
-
     #nav-menu li {
         margin: 15px;
     }
@@ -508,6 +512,7 @@ main {
     #nav-menu li {
         margin: 15px;
     }
+
     #logo {
         font-size: 35px;
     }
@@ -515,15 +520,18 @@ main {
     .hero-box {
         margin: 20px;
     }
+
     .flex-col {
         display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-top: 15px;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 15px;
     }
+
     .ci-col {
         margin-left: 18px;
     }
+
     .map {
         padding: 0;
     }
