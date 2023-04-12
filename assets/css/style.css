@@ -432,20 +432,31 @@ main {
         align-items: center;
         margin-top: 25px;
     }
-
-    .map {
-        padding-left: 25px;
-    }
 }
 
 @media screen and (max-width: 664px) {
     #nav-menu a {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     #nav-menu {
         display: flex;
         flex-direction: row-reverse;
         align-items: center;
+    }
+}
+
+@media screen and (max-width: 452px) {
+    .nav-bar{
+        
+    }
+    #nav-menu li {
+        margin: 20px;
+    }
+    #nav-menu a {
+        font-size: 12px;
+    }
+    #logo {
+        font-size: 40px;
     }
 }
