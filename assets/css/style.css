@@ -311,8 +311,19 @@ hr {
 
 main {
     display: inline-flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
 }
+
+.form-col {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    border: 1px solid #ddd;
+}
+
+.tb-1 {
+    line-height: 30px;
+}
+
+
 
 /* media queries */
