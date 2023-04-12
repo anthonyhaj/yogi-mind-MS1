@@ -322,7 +322,16 @@ main {
     padding: 20px 10px 10px 20px;
 }
 
-.tb1 {
+.form-label {
+    padding-left: 10px;
+    display: block;
+    font-size: 18px;
+}
+.form-tb {
+    margin: 10px;
+}
+
+.form-te {
     margin: 10px;
 }
 
