@@ -425,7 +425,13 @@ main {
         display: flex;
         flex-direction: column;
     }
+
+    .flex-col {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
     .map {
-        
+        padding-left: 25px;
     }
 }
