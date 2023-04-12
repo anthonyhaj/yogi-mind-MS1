@@ -478,7 +478,9 @@ main {
 
 @media screen and (max-width: 452px) {
 
-    
+    body.body-sign {
+        width: min-content;
+    }
 
     #logo {
         font-size: 35px;
@@ -495,7 +497,7 @@ main {
     }
 
     #nav-menu a {
-        font-size: 10px;
+        font-size: 12px;
     }
 
 
@@ -506,12 +508,23 @@ main {
     #nav-menu li {
         margin: 15px;
     }
-
     #logo {
         font-size: 35px;
     }
 
     .hero-box {
         margin: 20px;
+    }
+    .flex-col {
+        display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 15px;
+    }
+    .ci-col {
+        margin-left: 18px;
+    }
+    .map {
+        padding: 0;
     }
 }
