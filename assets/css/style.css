@@ -510,6 +510,10 @@ main {
     #hero-image {
         background-position: 35%;
     }
+    .hero-box h2 {
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
 
     #logo {
         font-size: 35px;
