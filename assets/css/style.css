@@ -40,12 +40,11 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: f784b6;
+    background-color: #f54785;
 }
 
 #nav-menu a {
     color: #F5F5F5;
-    background-color: #f54785;
     font-size: 22px;
     text-decoration: none;
     transition: color 0.5s;
@@ -139,7 +138,7 @@ a {
 .yoga-box h2 {
     font-size: 30px;
     margin-bottom: 20px;
-    color: #F0AEC3;
+    color: #f54785;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
@@ -175,7 +174,7 @@ a {
 #about-us h2 {
     font-size: 30px;
     margin-bottom: 20px;
-    color: #F0AEC3;
+    color: #f54785;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
     text-align: center;
 }
