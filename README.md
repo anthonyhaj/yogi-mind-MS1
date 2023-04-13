@@ -68,7 +68,84 @@ Using Google Fonts, The first font for the headings and logo was League Spartan 
 <img src="docs/wireframes/index-html.png">
 <img src="docs/wireframes/index-tablet.png">
 <img src="docs/wireframes/index-mobile.png">
+<details><summary>Yoga Poses</summary>
+<img src="docs/wireframes/yoga-poses.png">
+<img src="docs/wireframes/yoga-poses-tablet.png">
+<img src="docs/wireframes/yoga-poses-mobile.png">
+<details><summary>Sign Up</summary>
+<img src="docs/wireframes/sign-up.png">
+<img src="docs/wireframes/sign-up-tablet.png">
+<img src="docs/wireframes/sign-up-mobile.png">
 
+## Technologies Used
+
+### Languages
+- HTML
+- CSS
+
+### Frameworks & Tools
+- Git
+- Gitpod
+- Code Anywhere
+- Balsamiq
+- Adobe Color
+- Tiny png
+- Google Fonts
+- Font Awesome
+
+## Features
+
+### Nav Bar and Logo
+- Seen on all pages
+- Small text color transition on hover
+- Displays underline for current page
+
+![Logo and Nav](docs/site-features/nav-bar.png)
+
+### Explore Section
+- A small introduction to the site
+- A button that allows the user to explore Yoga Poses page
+
+![Explore](docs/site-features/explore.png)
+
+### About Us 
+- A description of the websites goals and features
+- Can also be reached through the navigation bar
+
+![About Us](docs/site-features/about-us.png)
+
+### Footer
+- Seen on all pages 
+- Contact us and info included in footer
+- Social media links 
+
+![Footer](docs/site-features/footer.png)
+
+### Yoga Poses page
+- A page showing different yoga poses with listed instructions 
+- Photos of poses showing each technique
+
+![Yoga Poses Page](docs/site-features/yoga-poses.png)
+
+### Sign Up form 
+- A form for subscribing to the sites newsletter
+- All fields texts cannot be submitted empty
+- Text boxes for First name, Last name, and Email
+- A button to submit
+
+![Sign Up Form](docs/site-features/form.png)
+
+### Contact Information
+- Information on address, phone number, and email address.
+
+![Contact Information](docs/site-features/contact.png)
+
+### Map
+- Interactive google map to easily find sites location
+
+![Map and Location](docs/site-features/map.png)
+
+## Validation
 
 
 
