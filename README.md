@@ -47,7 +47,14 @@ Welcome to my website! Yogi Mind is a site that aims to showcase basic yoga prac
 4. As a first time user, I want to know how I can sign up for newsletters.
 
 ## Design
+
+### Color
 I designed my website with simple coloring and with navigation. The color scheme calming and cozy with a shade of pink and a mixture of greys and whites. I chose my colors by seeing different color schemes and contrasts on brandcolor.net. My design is clean and minimalistic with a focus of simplicity and ease of us. Below I have included the color scheme using Adobe Color.
+
+![Adobe color](docs/site-features/adobe-color.png)
+
+### Fonts
+Using Google Fonts, The first font for the headings and logo was League Spartan and the secondly for texts and paaragraphs I used Roboto which matched very well together giving a warm look.
 
 
 
