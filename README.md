@@ -64,6 +64,11 @@ Using Google Fonts, The first font for the headings and logo was League Spartan 
 
 ### Wireframes 
 
+<details><summary>Homepage</summary>
+<img src="docs/wireframes/index-html.png">
+<img src="docs/wireframes/index-tablet.png">
+<img src="docs/wireframes/index-mobile.png">
+
 
 
 
