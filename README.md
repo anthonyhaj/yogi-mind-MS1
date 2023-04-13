@@ -44,7 +44,7 @@ Welcome to my website! Yogi Mind is a site that aims to showcase basic yoga prac
 1. As a first time user, I want to know where Yogi Mind is located.
 2. As a first time user, I want to know how I can contact Yogi Mind.
 3. As a first time user, I want to know what Yogi Mind is about.
-4. As a first time user, I want to know how I can sign up for newsletters.
+4. As a first time user, I want to know what techniques there are to learn.
 
 ## Design
 
@@ -214,6 +214,7 @@ All browsers respond well. All fonts, links, and images work as expected.
 
 - From the Homepage, click on the sign up page to locate the map.
 - Additional information of location address can be found above the map.
+**Tested on all devices, works as expected**
 <details><summary>Map</summary>
 <img src="docs/testing/map-test.png">
 </details>
@@ -222,6 +223,7 @@ All browsers respond well. All fonts, links, and images work as expected.
 
 - From the Homepage, click on the sign up page to locate Contact Information.
 - Contact Information including the email and phone number are also found in the footer.
+**Tested on all devices, works as expected**
 <details><summary>Contact</summary>
 <img src="docs/testing/contact-test.png">
 </details>
@@ -230,10 +232,36 @@ All browsers respond well. All fonts, links, and images work as expected.
 
 - From any page on the website the About navigation link will redirect the user to the About Us section which is located on the Homepage.
 - Also within the About Us section is a button for users who would like to subscribe to the newsletter.
+**Tested on all devices, works as expected**
 <details><summary>About Us</summary>
 <img src="docs/testing/contact-test.png">
 <img src="docs/testing/contact-test-2.png">
 </details>
+
+4. As a first time user, I would like to know what techniques there are to learn.
+
+- From the navigation menu clicking on Yoga Poses will direct the user to images and instructions on different yoga poses.
+- Yoga Poses page can also be accessed from the Homepage as there is an explore button.
+**Tested on all devices, works as expected**
+ <details><summary>Yoga Poses</summary>
+<img src="docs/testing/poses-test.png">
+<img src="docs/testing/poses-test-2.png">
+</details>
+
+## Bugs
+
+1. Navigation bar gets distorted on smaller screens
+- Fix: Added a media query for medium and small screen adjuststing the font size and navigation margin
+
+2. .current for my anchor tags was only showing on Home anchor on other pages
+- Fix: Made sure my navigation a elements had the correct current class for each page
+
+3. Column for on form box would only display in a row horizontally
+- Fix: Changed display to flex column
+
+4. Map was too wide on sign up page
+- Fix: Adjusted the values on the embedded google maps href
+
 
 
 
