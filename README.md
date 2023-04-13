@@ -262,9 +262,31 @@ All browsers respond well. All fonts, links, and images work as expected.
 4. Map was too wide on sign up page
 - Fix: Adjusted the values on the embedded google maps href
 
+## Deployment
+
+1. The site was deployed to GitHub pages. This is how:
+2. In the GitHub repository, navigate to the Settings tab and into pages
+3. From the pages section, under build and deployment i choose my main root branch
+4. Once the master branch has been selected, refresh the page and it will appear as a link at the top of the pages section of settings.
+
+## Credits
+
+### Content
+
+1. Social media icons were taken from fontawesome.com
+
+### Media
+
+- All photos on Yogi Mind are credited to [Alexy Almond](https://www.pexels.com/@alexy-almond/)
+
+### Code
+- Code of footer social media links and hero section inpired by the CI Love Running project.
 
 
-
+## Acknowledgements
+- I would like to credit Ana Runje for a great readme template.
+- I would like to thank Code Institute for a wonderful learning experience.
+- I would also like to thank my mentor Mo Shami for guiding me through this project.
 
 
 
