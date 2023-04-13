@@ -592,4 +592,8 @@ main {
     #nav-menu a {
         font-size: 8px;
     }
+    .ci-col {
+        margin-right: 25px;
+    }
+
 }
