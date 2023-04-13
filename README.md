@@ -28,7 +28,6 @@
     4. [Performance](#performance)
     5. [Device testing](#performing-tests-on-various-devices)
     6. [Browser compatibility](#browser-compatability)
-    7. [Testing user stories](#testing-user-stories)
 8. [Bugs](#Bugs)
 9. [Deployment](#deployment)
 10. [Credits](#credits)
@@ -164,6 +163,14 @@ Using the W3C Jigsaw CSS Validation tool full stylesheet
 <img src="docs/validation/css-validator-2.png">
 
 ### Accessibility 
+Using Wave web accessibility tool. All pages pass with no errors besides contrast errors
+<details><summary>Homepage</summary>
+<img src="docs/validation/wave-index.png">
+<details><summary>Yoga Poses</summary>
+<img src="docs/validation/wave-yoga-poses.png">
+<details><summary>Sign Up</summary>
+<img src="docs/validation/wave-sign-up.png">
+
 
 
 
