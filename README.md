@@ -2,7 +2,7 @@
 
 (Developer: Anthony Haj Ibrahim)
 
-![Mockup image]()
+![Mockup image](docs/Validation/mock-up.png)
 
 [Live webpage](https://anthonyhaj.github.io/yogi-mind-MS1/)
 
