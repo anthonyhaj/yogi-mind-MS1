@@ -56,6 +56,14 @@ I designed my website with simple coloring and with navigation. The color scheme
 ### Fonts
 Using Google Fonts, The first font for the headings and logo was League Spartan and the secondly for texts and paaragraphs I used Roboto which matched very well together giving a warm look.
 
+### Structure
+- A home page with a hero image, an explore section, and an about us section
+- A page of different yoga position and how to do them
+- An about navigation which takes the user to the about us section
+- A sign up page with form and contact information including location map
+
+### Wireframes 
+
 
 
 
