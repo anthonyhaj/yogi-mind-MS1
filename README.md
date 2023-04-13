@@ -288,6 +288,9 @@ All browsers respond well. All fonts, links, and images work as expected.
 - I would like to thank Code Institute for a wonderful learning experience.
 - I would also like to thank my mentor Mo Shami for guiding me through this project.
 
+
+
+
   
 
 
