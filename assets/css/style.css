@@ -521,7 +521,7 @@ main {
     }
 
     #nav-menu li {
-        margin: 15px;
+        margin: 12px;
     }
 
     #nav-menu a {
@@ -540,11 +540,11 @@ main {
 @media screen and (max-width: 359px) {
 
     #nav-menu li {
-        margin: 5px;
+        margin: 10px;
     }
 
     #nav-menu a {
-        font-size: 12px;
+        font-size: 10px;
     }
 
 
@@ -579,10 +579,10 @@ main {
 
 @media screen and (max-width: 308px) {
     #nav-menu li {
-        margin: 5px;
+        margin: 4px;
     }
 
     #nav-menu a {
-        font-size: 9px;
+        font-size: 8px;
     }
 }
