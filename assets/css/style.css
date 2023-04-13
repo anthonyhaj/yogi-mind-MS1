@@ -538,9 +538,15 @@ main {
 }
 
 @media screen and (max-width: 359px) {
+
     #nav-menu li {
-        margin: 15px;
+        margin: 5px;
     }
+
+    #nav-menu a {
+        font-size: 12px;
+    }
+
 
     #logo {
         font-size: 35px;
@@ -568,5 +574,15 @@ main {
     .map {
         padding: 0;
         margin-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 308px) {
+    #nav-menu li {
+        margin: 5px;
+    }
+
+    #nav-menu a {
+        font-size: 9px;
     }
 }
