@@ -506,7 +506,9 @@ main {
     body.body-sign {
         width: min-content;
     }
-
+    #hero-image {
+        background-position: 35%;
+    }
     #logo {
         font-size: 35px;
     }
