@@ -405,6 +405,18 @@ main {
 }
 
 /* media queries */
+@media screen and (max-width: 1500px){
+    main {
+        display: flex;
+        justify-content: center;
+        min-height: 80vh;
+    }
+    .form-col {
+        margin-right: 80px;
+        max-height: 44vh;
+    }
+}
+
 
 @media screen and (max-width: 963px) {
     .nav-bar {
