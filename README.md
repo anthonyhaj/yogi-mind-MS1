@@ -171,6 +171,15 @@ Using Wave web accessibility tool. All pages pass with no errors besides contras
 <details><summary>Sign Up</summary>
 <img src="docs/validation/wave-sign-up.png">
 
+### Performance
+Using lighthouse on google devoloper tools 
+<details><summary>Homepage</summary>
+<img src="docs/validation/lighthouse-index.png">
+<details><summary>Yoga Poses</summary>
+<img src="docs/validation/lighthouse-yoga.png">
+<details><summary>Sign Up</summary>
+<img src="docs/validation/lighthouse-index.png">
+
 
 
 

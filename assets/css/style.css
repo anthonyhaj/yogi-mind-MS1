@@ -410,10 +410,13 @@ main {
         justify-content: center;
         min-height: 80vh;
     }
-
+    .form-box {
+        border: 1px solid #D3D3D3;
+        border-radius: 5px;
+    }
     .form-col {
-        margin-right: 80px;
-        max-height: 44vh;
+        margin-right: 50px;
+        border: none;
     }
 }
 
