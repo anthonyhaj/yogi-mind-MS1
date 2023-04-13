@@ -147,6 +147,25 @@ Using Google Fonts, The first font for the headings and logo was League Spartan 
 
 ## Validation
 
+### HTML Validation
+Using the W3C HTML Validation tool
+<details><summary>Homepage</summary>
+<img src="docs/validation/html-validator-index.png">
+<details><summary>Yoga Poses</summary>
+<img src="docs/validation/html-validator-yoga-poses.png">
+<details><summary>Sign Up</summary>
+<img src="docs/validation/html-validator-sign-up.png">
+
+### CSS Validation
+Using the W3C Jigsaw CSS Validation tool full stylesheet
+<details><summary>Full stylesheet</summary>
+<img src="docs/validation/css-validator.png">
+<details><summary>Full repo</summary>
+<img src="docs/validation/css-validator-2.png">
+
+### Accessibility 
+
+
 
 
 
