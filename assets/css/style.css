@@ -410,10 +410,22 @@ main {
         justify-content: center;
         min-height: 80vh;
     }
+
+    .nav-bar {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #nav-menu li {
+        margin: 20px;
+    }
+
     .form-box {
         border: 1px solid #D3D3D3;
         border-radius: 5px;
     }
+
     .form-col {
         margin-right: 50px;
         border: none;
@@ -513,6 +525,7 @@ main {
     #hero-image {
         background-position: 35%;
     }
+
     .hero-box h2 {
         font-size: 18px;
         letter-spacing: 2px;
@@ -592,6 +605,7 @@ main {
     #nav-menu a {
         font-size: 8px;
     }
+
     .ci-col {
         margin-right: 25px;
     }

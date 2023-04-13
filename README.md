@@ -28,6 +28,7 @@
     4. [Performance](#performance)
     5. [Device testing](#performing-tests-on-various-devices)
     6. [Browser compatibility](#browser-compatability)
+    7. [Testing user stories](#testing-user-stories)
 8. [Bugs](#Bugs)
 9. [Deployment](#deployment)
 10. [Credits](#credits)
@@ -67,14 +68,17 @@ Using Google Fonts, The first font for the headings and logo was League Spartan 
 <img src="docs/wireframes/index-html.png">
 <img src="docs/wireframes/index-tablet.png">
 <img src="docs/wireframes/index-mobile.png">
+</details>
 <details><summary>Yoga Poses</summary>
 <img src="docs/wireframes/yoga-poses.png">
 <img src="docs/wireframes/yoga-poses-tablet.png">
 <img src="docs/wireframes/yoga-poses-mobile.png">
+</details>
 <details><summary>Sign Up</summary>
 <img src="docs/wireframes/sign-up.png">
 <img src="docs/wireframes/sign-up-tablet.png">
 <img src="docs/wireframes/sign-up-mobile.png">
+</details>
 
 ## Technologies Used
 
@@ -150,10 +154,13 @@ Using Google Fonts, The first font for the headings and logo was League Spartan 
 Using the W3C HTML Validation tool
 <details><summary>Homepage</summary>
 <img src="docs/validation/html-validator-index.png">
+</details>
 <details><summary>Yoga Poses</summary>
 <img src="docs/validation/html-validator-yoga-poses.png">
+</details>
 <details><summary>Sign Up</summary>
 <img src="docs/validation/html-validator-sign-up.png">
+</details>
 
 ### CSS Validation
 Using the W3C Jigsaw CSS Validation tool full stylesheet
@@ -166,21 +173,67 @@ Using the W3C Jigsaw CSS Validation tool full stylesheet
 Using Wave web accessibility tool. All pages pass with no errors besides contrast errors
 <details><summary>Homepage</summary>
 <img src="docs/validation/wave-index.png">
+</details>
 <details><summary>Yoga Poses</summary>
 <img src="docs/validation/wave-yoga-poses.png">
+</details>
 <details><summary>Sign Up</summary>
 <img src="docs/validation/wave-sign-up.png">
+</details>
 
 ### Performance
-Using lighthouse on google devoloper tools 
+Using lighthouse on google devoloper tools, 
 <details><summary>Homepage</summary>
 <img src="docs/validation/lighthouse-index.png">
+</details>
 <details><summary>Yoga Poses</summary>
 <img src="docs/validation/lighthouse-yoga.png">
+</details>
 <details><summary>Sign Up</summary>
-<img src="docs/validation/lighthouse-index.png">
+<img src="docs/validation/lighthouse-sign-up.png">
+</details>
 
+### Device Testing
+I have tested on multiple devices including small devices and responsiveness is working very well. The devices i have tested are:
+- Lenovo Thinkpad (PC)
+- iPad Mini
+- iPhone X
+- iPhone 7
+- iPhone 12 Pro
+All links and pages respond very well, I have also tested all devices on google developer tools.
 
+### Browser Compatability 
+- Tested on Google Chrome
+- Tested on Firefox
+- Tested on Microsoft Edge
+All browsers respond well. All fonts, links, and images work as expected.
+
+### Testing User Stories
+
+1. As a first time user, I would like to know how to locate Yogi Mind
+
+- From the Homepage, click on the sign up page to locate the map.
+- Additional information of location address can be found above the map.
+<details><summary>Map</summary>
+<img src="docs/testing/map-test.png">
+</details>
+
+2. As a first time user, I would like to know how i can contact Yogi Mind.
+
+- From the Homepage, click on the sign up page to locate Contact Information.
+- Contact Information including the email and phone number are also found in the footer.
+<details><summary>Contact</summary>
+<img src="docs/testing/contact-test.png">
+</details>
+
+3. As a first time user, I would like to know what Yogi Mind is about.
+
+- From any page on the website the About navigation link will redirect the user to the About Us section which is located on the Homepage.
+- Also within the About Us section is a button for users who would like to subscribe to the newsletter.
+<details><summary>About Us</summary>
+<img src="docs/testing/contact-test.png">
+<img src="docs/testing/contact-test-2.png">
+</details>
 
 
 
