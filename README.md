@@ -34,5 +34,27 @@
 10. [Credits](#credits)
 11. [Acknowledgements](#acknowledgements)
 
+## Introduction
+
+Welcome to my website! Yogi Mind is a site that aims to showcase basic yoga practices and provides an opportunity for users to sign up or contact us for more information. Take a look around, explore our pose library, and don't hesitate to reach out if you have any questions. Thank you for visiting!
+
+## User Experience
+
 ### User Stories
-- 
+1. As a first time user, I want to know where Yogi Mind is located.
+2. As a first time user, I want to know how I can contact Yogi Mind.
+3. As a first time user, I want to know what Yogi Mind is about.
+4. As a first time user, I want to know how I can sign up for newsletters.
+
+## Design
+I designed my website with simple coloring and with navigation. The color scheme calming and cozy with a shade of pink and a mixture of greys and whites. I chose my colors by seeing different color schemes and contrasts on brandcolor.net. My design is clean and minimalistic with a focus of simplicity and ease of us. Below I have included the color scheme using Adobe Color.
+
+
+
+
+
+
+
+
+
+
